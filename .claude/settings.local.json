@@ -19,7 +19,12 @@
       "Bash(git init:*)",
       "Bash(git remote add:*)",
       "Bash(uv sync:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(gh auth login:*)",
+      "Bash(winget install:*)"
     ],
     "deny": [],
     "ask": []
