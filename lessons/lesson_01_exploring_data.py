@@ -42,7 +42,7 @@ print("-" * 60)
 import os
 
 # Check if corpus exists
-corpus_file = "../bible_corpus/bible_combined.txt"
+corpus_file = "bible_corpus/bible_combined.txt"
 
 if not os.path.exists(corpus_file):
     print("❌ Corpus not found!")

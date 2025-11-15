@@ -82,7 +82,7 @@ print("-" * 60)
 
 # Load a sample from our corpus
 import os
-corpus_file = "../bible_corpus/bible_combined.txt"
+corpus_file = "bible_corpus/bible_combined.txt"
 
 if os.path.exists(corpus_file):
     with open(corpus_file, "r", encoding="utf-8") as f:
