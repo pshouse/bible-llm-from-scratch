@@ -67,7 +67,12 @@ bible_files = {
     'kjv.txt': 'King James Version (KJV)',
     'web.txt': 'World English Bible (WEB)',
     'douay_rheims.txt': 'Douay-Rheims Bible',
-    'tyndale_nt.txt': 'Tyndale New Testament'
+    'tyndale_nt.txt': 'Tyndale New Testament',
+    'asv.txt': 'American Standard Version (ASV)',
+    'ylt.txt': "Young's Literal Translation (YLT)",
+    'darby.txt': 'Darby Bible Translation',
+    'webster.txt': "Webster's Bible Translation",
+    'bbe.txt': 'Bible in Basic English (BBE)'
 }
 
 for filename, description in bible_files.items():

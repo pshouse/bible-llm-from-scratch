@@ -29,6 +29,10 @@ bible_corpus/
 # Downloaded sample data
 the-verdict.txt
 
+# Tutorial progress (user-specific)
+lessons/**/__pycache__/
+lessons/**/experiments.py
+
 # OS
 .DS_Store
 Thumbs.db
