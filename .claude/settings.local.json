@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /B /A:D)",
+      "Bash(if [ -f \".venv/Scripts/activate\" ])",
+      "Bash(then echo \"Windows venv found\")",
+      "Bash(fi)",
+      "Bash(if [ -f \".venv/bin/activate\" ])",
+      "Bash(then echo \"Unix venv found\")",
+      "Bash(. .venv/Scripts/activate)",
+      "WebSearch",
+      "WebFetch(domain:www.gutenberg.org)",
+      "WebFetch(domain:ebible.org)",
+      "Bash(python download_bibles.py:*)",
+      "Bash(python download_more_bibles.py:*)",
+      "Bash(python download_correct_bibles.py:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(uv sync:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
