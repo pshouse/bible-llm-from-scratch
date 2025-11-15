@@ -218,7 +218,9 @@ This project follows "Build a Large Language Model (From Scratch)" by Sebastian 
 
 ## License
 
-- **Code:** MIT License (or similar open source)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+- **Code:** MIT License
 - **Bible Texts:** Public Domain (no copyright restrictions)
 
 ## Acknowledgments
